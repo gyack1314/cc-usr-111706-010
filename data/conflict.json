@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://operator.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://operator.example.test/energy-disclosure/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 143,
+        "sha256": "8543ad5a8900964c717c724297142e29eab585e3430c8521419434d3212abfb0"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://operator.example.test/energy-disclosure/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 143,
+        "sha256": "bd56bb5f5be98ed4aa5cab7eb59db47d9ded61d11e3909cbe7df4951d03e3749"
+      }
+    }
+  ]
+}

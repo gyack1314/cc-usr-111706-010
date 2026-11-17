@@ -1,0 +1,10 @@
+{
+  "filing": "AR-1",
+  "revision": "r1",
+  "operator": "企业甲",
+  "scope": [
+    "F-1"
+  ],
+  "period": "2024",
+  "electricity_mwh": 100
+}
